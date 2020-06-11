@@ -1,19 +1,9 @@
-# Forest Night - JetBrains
+# Forest Night - JetBrains Theme [![cd](https://github.com/jef/forest-night-jetbrains/workflows/cd/badge.svg?branch=master)](![ci](https://github.com/jef/forest-night-jetbrains/actions?query=workflow%3Acd))
 
-![screenshot](screenshot.png)
+![](https://img.shields.io/jetbrains/plugin/v/14491) ![](https://img.shields.io/jetbrains/plugin/d/14491?color=brightgreen)
+
+![screenshot](docs/screenshots/python.png)
 
 ## Install
 
-Download from the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/14448-forest-night).
-
-## Contributing
-
-To work with the plugin, add a **New Module** to the **Project Structure** using the **IntelliJ Platform Plugin SDK**. Set the location to the `jetbrains` folder. Changes should be now editable live via `Forest_Night.theme.json`.
-
-After changes are complete, please bump `<version>1.0.0</version>` in `plugin.xml` by major, minor, or patch depending on the change.
-
-### Credits
-
-Based off [sainnhe's Forest Night](https://github.com/sainnhe/forest-night).
-
-Thanks to [Artic Ice Studio's Nord Theme](https://github.com/arcticicestudio/nord-jetbrains) for creating a fantastic foundation to build on.
+Download from the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/14491-forest-night).

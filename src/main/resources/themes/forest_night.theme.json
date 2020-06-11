@@ -1,8 +1,8 @@
 {
   "name": "Forest Night",
   "dark": true,
-  "author": "Jef LeCompte",
-  "editorScheme": "/META-INF/Forest_Night.xml",
+  "author": "jef",
+  "editorScheme": "/themes/forest_night.xml",
   "ui": {
     "*": {
       "acceleratorForeground": "#89beba",

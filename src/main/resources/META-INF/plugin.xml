@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>com.github.jef.forest-night</id>
+    <name>Forest Night</name>
+    <vendor email="jeffreylec@gmail.com" url="https://github.com/jef/forest-night-jetbrains">Jef LeCompte</vendor>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <description>
+        <![CDATA[
+            <p>Green based but warm-toned.</p>
+            <p>Designed to have soft contrast for eye protection.</p>
+            <p>Works well with redshift and f.lux.</p>
+            <p>Rich support for common file types and plugins.</p>
+            </br>
+            <p>Still a work-in-progress, but is fully featured. Feel free to contribute at <a href="https://github.com/jef/forest-night-jetbrains">forest-night</a></p>.
+        ]]>
+    </description>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="9e12f552-7744-44ee-8881-891789633d84" path="/themes/forest_night.theme.json"/>
+    </extensions>
+</idea-plugin>
