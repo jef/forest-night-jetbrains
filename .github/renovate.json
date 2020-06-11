@@ -1,0 +1,6 @@
+{
+  "labels": ["chore"],
+  "extends": [
+    "config:base"
+  ]
+}

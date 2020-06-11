@@ -1,4 +1,15 @@
-# Git Related
-.idea/
+# Compiled class file
+*.class
+out
+
+# Editors
+**/.idea/*
+!**/.idea/runConfigurations/
 .vscode/
-out/
+
+# Generated files and folders
+build/
+
+# Gradle
+.gradle/
+gradle.properties
