@@ -2,15 +2,16 @@ on:
   push:
     branches:
       - master
+name: cd
 jobs:
-  release-please:
+  cd:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: bcoe/release-please-action@v1.2.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          release-type: java
+          release-type: simple
           package-name: forest-night
       # The logic below handles JetBrains publication:
       - uses: actions/checkout@v2
