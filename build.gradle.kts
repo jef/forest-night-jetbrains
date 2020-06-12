@@ -3,7 +3,7 @@ plugins {
     id("org.jetbrains.intellij") version "0.4.21"
 }
 
-version = "1.0.0"
+version = "1.0.2"
 group = "com.github.jef"
 
 repositories {
@@ -19,6 +19,5 @@ tasks.patchPluginXml {
 }
 
 tasks.publishPlugin {
-    username(System.getenv("JETBRAINS_USERNAME"))
     token(System.getenv("JETBRAINS_TOKEN"))
 }
