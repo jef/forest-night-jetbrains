@@ -3,7 +3,7 @@ plugins {
     id("org.jetbrains.intellij") version "0.4.21"
 }
 
-version = "1.0.2"
+version = file("version.txt").readText()
 group = "com.github.jef"
 
 repositories {
