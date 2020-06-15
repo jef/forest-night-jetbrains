@@ -1,6 +1,6 @@
 # Introduction
 
-I hope you enjoy Forest Night for JetBrains!
+I hope you enjoy Forest Night for JetBrains! Feel free to [contribute](https://github.com/jef/forest-night-jetbrains/blob/master/CONTRIBUTING.md) or [report bugs](https://github.com/jef/forest-night-jetbrains/issues/new?assignees=jef&labels=bug&template=bug_report.md&title=bug%3A+) and [feature requests](https://github.com/jef/forest-night-jetbrains/issues/new?assignees=jef&labels=feat&template=feature_request.md&title=feat%3A+).
 
 ## Acknowledgments
 
