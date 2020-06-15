@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.github.jef.forest-night</id>
     <name>Forest Night</name>
-    <vendor email="jeffreylec@gmail.com" url="https://github.com/jef/forest-night-jetbrains">Jef LeCompte</vendor>
+    <vendor email="jeffreylec@gmail.com" url="https://jef.codes">Jef LeCompte</vendor>
 
     <depends>com.intellij.modules.lang</depends>
 
