@@ -1,8 +1,8 @@
 ---
 name: 🚀 Feature request
-about: Suggest a new idea for forest-night
+about: Suggest a new idea
 title: 'feat: '
-labels: 'feat'
+labels: 'enhancement'
 assignees: jef
 
 ---
