@@ -15,11 +15,6 @@ intellij {
     version = "LATEST-EAP-SNAPSHOT"
 }
 
-tasks.build {
-    dependsOn("copyMarkdown")
-    dependsOn("markdownToHtml")
-}
-
 tasks.register<Copy>("copyMarkdown") {
     from(file("README.md"), file("CHANGELOG.md"))
     into(file("$buildDir/markdown"))
@@ -43,6 +38,10 @@ tasks.patchPluginXml {
     if (file(readmePath).exists()) {
         pluginDescription(file(readmePath).readText())
     }
+}
+
+tasks.buildPlugin {
+    dependsOn("copyMarkdown", "markdownToHtml")
 }
 
 tasks.publishPlugin {

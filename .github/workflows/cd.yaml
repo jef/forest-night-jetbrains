@@ -1,8 +1,7 @@
+name: cd
 on:
   push:
-    branches:
-      - master
-name: cd
+    branches: [master]
 jobs:
   cd:
     runs-on: ubuntu-latest
@@ -27,7 +26,14 @@ jobs:
           path: ~/.gradle/caches
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}
           restore-keys: ${{ runner.os }}-gradle-
-      - run: ./gradlew publishPlugin --stacktrace
+      - name: Build plugin
         if: ${{ steps.release.outputs.release_created }}
+        run: ./gradlew buildPlugin --stacktrace
+      - name: Verify plugin
+        if: ${{ steps.release.outputs.release_created }}
+        run: ./gradlew verifyPlugin --stacktrace
+      - name: Publish plugin
+        if: ${{ steps.release.outputs.release_created }}
+        run: ./gradlew publishPlugin --stacktrace
         env:
           JETBRAINS_TOKEN: ${{ secrets.JETBRAINS_TOKEN }}
