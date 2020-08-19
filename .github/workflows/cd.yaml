@@ -18,17 +18,16 @@ jobs:
       - uses: actions/checkout@v2
         if: ${{ steps.release.outputs.release_created }}
       - uses: actions/setup-java@v1
+        if: ${{ steps.release.outputs.release_created }}
         with:
           java-version: 11
-        if: ${{ steps.release.outputs.release_created }}
       - uses: actions/cache@v2
+        if: ${{ steps.release.outputs.release_created }}
         with:
           path: ~/.gradle/caches
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}
-          restore-keys: |
-            ${{ runner.os }}-gradle-
-        if: ${{ steps.release.outputs.release_created }}
+          restore-keys: ${{ runner.os }}-gradle-
       - run: ./gradlew publishPlugin --stacktrace
+        if: ${{ steps.release.outputs.release_created }}
         env:
           JETBRAINS_TOKEN: ${{ secrets.JETBRAINS_TOKEN }}
-        if: ${{ steps.release.outputs.release_created }}

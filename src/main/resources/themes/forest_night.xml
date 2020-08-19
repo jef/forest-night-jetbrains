@@ -21,7 +21,7 @@
         <option name="FILESTATUS_ADDED" value="a7c080"/>
         <option name="FILESTATUS_DELETED" value="e68183"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="3c474d"/>
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="3c474d"/>
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="576268"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="e39b7b"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="e39b7b"/>
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="e39b7b"/>
@@ -65,8 +65,8 @@
         <option name="VCS_ANNOTATIONS_COLOR_4" value="3c474d"/>
         <option name="VCS_ANNOTATIONS_COLOR_5" value="3c474d"/>
         <option name="VISUAL_INDENT_GUIDE" value="3c474d"/>
-        <option name="WHITESPACES" value="3c474d"/>
-        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="d9bb80"/>
+        <option name="WHITESPACES" value="576268"/>
+        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="576268"/>
     </colors>
     <attributes>
         <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
