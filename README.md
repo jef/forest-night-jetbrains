@@ -11,8 +11,6 @@
 
 Open **Settings -> Plugins**, switch to the **Marketplace** tab and search for `Forest Night`.
 
-> :point_right: See [docs](docs/) for more information.
-
 ## Acknowledgments
 
 - Thanks to [@sainnhe](https://github.com/sainnhe) for giving us a great theme: [Forest Night](https://github.com/sainnhe/forest-night)
