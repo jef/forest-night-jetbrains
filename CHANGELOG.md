@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://www.github.com/jef/forest-night-jetbrains/compare/v1.1.0...v1.1.1) (2020-08-19)
+
+
+### Bug Fixes
+
+* build and description ([3ff8cf0](https://www.github.com/jef/forest-night-jetbrains/commit/3ff8cf0d7b0bd16e363e0fad23ba9ef5faf1e667))
+
 ## [1.1.0](https://www.github.com/jef/forest-night-jetbrains/compare/v1.0.2...v1.1.0) (2020-08-19)
 
 
