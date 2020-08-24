@@ -4,7 +4,7 @@ plugins {
     id("org.kordamp.gradle.markdown") version "2.2.0"
 }
 
-version = file("version.txt").readText()
+version = file("version.txt").readText().trim()
 group = "com.github.jef"
 
 repositories {
