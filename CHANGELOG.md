@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.2](https://www.github.com/jef/forest-night-jetbrains/compare/v1.1.1...v1.1.2) (2020-08-24)
+
+
+### Bug Fixes
+
+* trimming issue with version ([#20](https://www.github.com/jef/forest-night-jetbrains/issues/20)) ([16b8a77](https://www.github.com/jef/forest-night-jetbrains/commit/16b8a7738d21760007894b69cacc51ebfa477579))
+
 ### [1.1.1](https://www.github.com/jef/forest-night-jetbrains/compare/v1.1.0...v1.1.1) (2020-08-19)
 
 
