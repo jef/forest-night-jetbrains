@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://www.github.com/jef/forest-night-jetbrains/compare/v1.1.2...v1.2.0) (2020-09-29)
+
+
+### Features
+
+* markdown more readable, update build ([8996da8](https://www.github.com/jef/forest-night-jetbrains/commit/8996da8298d27eed2d92adc7fcb1a48d14386cab))
+
 ### [1.1.2](https://www.github.com/jef/forest-night-jetbrains/compare/v1.1.1...v1.1.2) (2020-08-24)
 
 
