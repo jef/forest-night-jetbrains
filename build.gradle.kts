@@ -26,7 +26,7 @@ tasks.markdownToHtml {
 }
 
 tasks.patchPluginXml {
-    sinceBuild("191")
+    sinceBuild("203")
 
     val changelogPath = "$buildDir/html/CHANGELOG.html"
     val readmePath = "$buildDir/html/README.html"
