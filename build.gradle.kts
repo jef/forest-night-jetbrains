@@ -13,6 +13,7 @@ repositories {
 
 intellij {
     version = "LATEST-EAP-SNAPSHOT"
+    updateSinceUntilBuild = false
 }
 
 tasks.register<Copy>("copyMarkdown") {
