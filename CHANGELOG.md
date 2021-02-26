@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://www.github.com/jef/forest-night-jetbrains/compare/v1.2.0...v1.3.0) (2021-02-26)
+
+
+### Features
+
+* updateSinceUntilBuild is now false ([56f58f0](https://www.github.com/jef/forest-night-jetbrains/commit/56f58f03a788fcb014e8f2a98695c290a36a9f13))
+
 ## [1.2.0](https://www.github.com/jef/forest-night-jetbrains/compare/v1.1.2...v1.2.0) (2020-09-29)
 
 
