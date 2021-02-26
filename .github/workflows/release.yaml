@@ -1,21 +1,23 @@
-name: cd
+name: Release
 on:
   push:
-    branches: [master]
+    branches:
+      - main
 jobs:
   cd:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: GoogleCloudPlatform/release-please-action@v1.3.2
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Setup release please
+        uses: google-github-actions/release-please-action@v2
         id: release
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: simple
-          package-name: forest-night
+          changelog-path: CHANGELOG.md
+          package-name: forest-night-jetbrains
       # The logic below handles JetBrains publication:
-      - uses: actions/checkout@v2
-        if: ${{ steps.release.outputs.release_created }}
       - uses: actions/setup-java@v1
         if: ${{ steps.release.outputs.release_created }}
         with:
