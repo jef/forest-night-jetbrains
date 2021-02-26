@@ -5,7 +5,7 @@
 
 [Forest Night](https://github.com/sainnhe/forest-night) theme for JetBrains.
 
-![screenshot](https://github.com/jef/forest-night-jetbrains/raw/master/docs/screenshots/python.png)
+![screenshot](https://github.com/jef/forest-night-jetbrains/raw/main/docs/screenshots/python.png)
 
 ## Install
 
