@@ -1,5 +1,7 @@
 # Forest Night - JetBrains Theme [![cd](https://github.com/jef/forest-night-jetbrains/workflows/cd/badge.svg)](https://github.com/jef/forest-night-jetbrains/actions?query=workflow%3Acd+branch%3Amaster)
 
+> ⚠️ I have lost interest in maintaining this theme with [Everforest](https://github.com/sainnhe/everforest). Please review the [wiki](https://github.com/sainnhe/everforest/wiki) to find other JetBrains alternatives.
+
 [![](https://img.shields.io/jetbrains/plugin/v/14491)](https://plugins.jetbrains.com/plugin/14491-forest-night)
 [![](https://img.shields.io/jetbrains/plugin/d/14491)](https://plugins.jetbrains.com/plugin/14491-forest-night)
 
